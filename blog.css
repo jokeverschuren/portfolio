@@ -1,0 +1,104 @@
+body {
+	background-image: url(background.jpg);
+	background-size: 18%;
+	font-family: 'Raleway', sans-serif;
+}
+
+.head {
+	width: 70%;
+	height: 200px;
+	margin: 2% auto 2% auto;
+	background: pink;
+	opacity: 0.94;
+	color: white;
+	border: 4px solid white;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 140px;
+	padding: 15px;
+	text-align: center;
+}
+
+ul {
+	float: left;
+	margin-bottom: 40px;
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+}
+
+li {	 
+	display: inline-block;
+ 	margin-right: 40px;
+ 	font-size: 20px;
+ 	padding-bottom: 8px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+ h2 {
+ 	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-right: 2em;
+	margin-left: 2em;
+	font-weight: bold;
+	font-size: 20px;
+ }
+
+p {
+	padding-top: 0.5em;
+	padding-bottom: 2em;
+	margin-right: 2em;
+	margin-left: 2em;
+	line-height: 1.5em;
+	text-align: justify;
+}
+
+.geraamte {
+	margin: 1em auto 1em auto;
+	width: 70%;
+	height: 50%;
+}
+
+.kader1, .kader2, .kader3, .kader4, .kader5, .kader6, .kader7, .kader8 {
+	float: left;
+	margin-left: 5em;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	background: white;
+	width: 40%;
+	height: 700px;
+	box-shadow: 10px 10px 20px #888888;
+}
+
+.kader7, .kader8 {
+	margin-bottom: 2em;
+}
+
+.foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8 {
+	float: left;
+	padding: 2em;
+}
+
+.tekst {
+	float: left;
+	background: black;
+	color: white;
+	font-weight: bold;
+	font-size: 90px;
+	height: 246px;
+	width: 87%;
+	margin-left: 0.35em;
+	margin-top: 0.35em;
+	margin-bottom: 34px;
+	text-align: center;
+	padding-top: 155px;
+}
+
+.hidden {
+	display: none;
+}
